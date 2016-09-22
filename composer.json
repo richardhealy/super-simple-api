@@ -1,0 +1,38 @@
+{
+    "autoload": {
+      "psr-0": {
+          "Vanilla": "app/"
+        }
+    },
+    "require": {
+        "jdesrosiers/silex-cors-provider": "~0.1",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "silex/silex": "~1.1",
+        "leaf o/lessphp": "0.4.*@dev",
+        "darklow/ff-silex-less-provider": "dev-master",
+        "symfony/browser-kit": "~2.3",
+        "symfony/console": "~2.3",
+        "symfony/config": "~2.3",
+        "symfony/css-selector": "~2.3",
+        "symfony/dom-crawler": "~2.3",
+        "symfony/filesystem": "~2.3",
+        "symfony/finder": "~2.3",
+        "symfony/form": "~2.3",
+        "symfony/locale": "~2.3",
+        "symfony/process": "~2.3",
+        "symfony/security": "~2.3",
+        "symfony/security-csrf": "~2.3",
+        "symfony/serializer": "~2.3",
+        "symfony/translation": "~2.3",
+        "symfony/validator": "~2.3",
+        "symfony/monolog-bridge": "~2.3",
+        "symfony/twig-bridge": "~2.3",
+        "doctrine/dbal": "~2.4",
+        "swiftmailer/swiftmailer": "5.*",
+        "igorw/config-service-provider": "1.2.*",
+        "gigablah/silex-oauth": "~0.1",
+        "aws/aws-sdk-php-silex": "1.*",
+        "php-curl-class/php-curl-class":"2.1.*",
+        "stripe/stripe-php": "2.*"
+    }
+}
